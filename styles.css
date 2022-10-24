@@ -1,0 +1,16 @@
+/************************ tags ************************/
+body {
+    background-color: black;
+    color: white;
+}
+/************************ classes ************************/
+.brand-font {
+    font-family: 'Puppies Play', cursive;
+}
+.header-font {
+    font-family: 'League Gothic', sans-serif;
+}
+.text-font {
+    font-family: 'Sawarabi Gothic', sans-serif;
+}
+/************************ id's ************************/
