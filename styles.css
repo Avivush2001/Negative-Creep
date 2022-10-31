@@ -1,11 +1,11 @@
 /************************ tags ************************/
 body {
-    background-color: black;
-    color: white;
+    background-color: #50577A;
+    
 }
 /************************ classes ************************/
 .brand-font {
-    font-family: 'Puppies Play', cursive;
+    font-family: 'League Gothic', sans-serif;
 }
 .header-font {
     font-family: 'League Gothic', sans-serif;
@@ -13,4 +13,84 @@ body {
 .text-font {
     font-family: 'Sawarabi Gothic', sans-serif;
 }
+
+.navbar-brand {
+    font-size: 2.5rem;
+    /* color: white; */
+}
+.nav-link {
+    font-size: 1.5rem;
+    /* color: white; */
+}
+/* .active {
+    color: white;
+} */
+/* .nabar-nav {
+    color: white;
+} */
+.navbar {
+    position: sticky;
+    background-color: #474E68 !important;
+    
+}
+.container-fluid {
+    padding-inline: 12%;
+}
+.carousel-item {
+    text-align: center;
+    border-radius: 50%;
+    padding-inline: 3%;
+}
+#title-img .container-fluid {
+    padding-block: 10%;
+}
+#about .container-fluid {
+    padding-block: 5%;
+}
 /************************ id's ************************/
+#logo{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    margin: 0 10px;
+}
+#title-img {
+    text-align: left;
+    background-image: url(images/ella2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#title-text h1 {
+    font-size: 10rem;
+    -webkit-text-stroke: 1px black;
+    
+}  
+#title-text h2 {
+    font-size: 5rem;
+    -webkit-text-stroke: 1px black;
+    
+}
+#about {
+    text-align: center;
+}
+#about h1 {
+    padding: 3%;
+    font-family: 'League Gothic', sans-serif;
+    font-size: 2.5rem;
+
+}
+#about p {
+    font-size: 1.5rem;
+}
+#about .row {
+    padding-block: 2%;
+}
+@media (max-width: 600px) {
+    #title-text h1 {
+        font-size: 5rem;
+    }  
+    #title-text h2 {
+        font-size: 2.5rem;
+    }
+}
