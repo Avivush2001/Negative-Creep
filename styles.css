@@ -93,4 +93,7 @@ body {
     #title-text h2 {
         font-size: 2.5rem;
     }
+    .container-fluid {
+        padding-inline: 6%;
+    }
 }
