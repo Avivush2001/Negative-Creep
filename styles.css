@@ -1,7 +1,11 @@
 /************************ tags ************************/
-body {
-    background-color: #50577A;
-    
+body, footer {
+    background-color: black;
+    color: white;
+}
+footer {
+    text-align: center;
+    padding-block: 1% ;
 }
 /************************ classes ************************/
 .brand-font {
@@ -30,7 +34,7 @@ body {
 } */
 .navbar {
     position: sticky;
-    background-color: #474E68 !important;
+    background-color: black !important;
     
 }
 .container-fluid {
@@ -47,19 +51,25 @@ body {
 #about .container-fluid {
     padding-block: 5%;
 }
+.socials {
+    margin: 2%;
+}
 /************************ id's ************************/
 #logo{
     width: 60px;
     height: 60px;
     border-radius: 100%;
     margin: 0 10px;
+    opacity: 0.8;
 }
 #title-img {
+    color: white;
     text-align: left;
     background-image: url(images/ella2.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    opacity: 0.8;
 }
 #title-text h1 {
     font-size: 10rem;
@@ -86,6 +96,25 @@ body {
 #about .row {
     padding-block: 2%;
 }
+#contact {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding-block: 3%;
+}
+#contact h1 {
+    padding: 3%;
+    font-family: 'League Gothic', sans-serif;
+    font-size: 2.5rem;
+
+}
+#contact h2 {
+    padding: 3%;
+    font-family: 'League Gothic', sans-serif;
+    font-size: 2rem;
+
+}
+
 @media (max-width: 600px) {
     #title-text h1 {
         font-size: 5rem;
@@ -95,5 +124,8 @@ body {
     }
     .container-fluid {
         padding-inline: 3%;
+    }
+    #about p {
+        font-size: 1rem;
     }
 }
